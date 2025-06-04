@@ -5,6 +5,11 @@ Bu proje, müşteri hizmetleri süreçlerini dijitalleştirmek amacıyla gelişt
 
 ---
 
+<img src="chatbot.png" alt="chatbot" style="width:30%;"/>   <img src="chatbot2.png" alt="chatbot" style="width:30%;"/>
+
+
+---
+
 ## 📌 Proje Amacı
 
 Bera Şirketi'nin müşteri taleplerini karşılayabilecek, kariyer başvurularını yönlendirebilecek ve genel bilgi sağlayabilecek bir dijital asistan geliştirilmiştir. Proje, zamandan tasarruf sağlamak, müşteri memnuniyetini artırmak ve operasyonel yükü azaltmak üzere tasarlandı.
@@ -118,13 +123,14 @@ Model, yüksek F1 ve AUC skorlarıyla overfitting yapmadan başarılı bir genel
 ## 📚 Kaynakça
 
 Proje ile ilgili literatür ve teknik detaylar için:  
-📄 `chatbot.docx` dosyasına başvurabilirsiniz.
+[📄 Chatbot](https://docs.google.com/document/d/1zRBU92m4bub8-r-NLRUV-fw8gy5eJsFR/edit?usp=drive_link&ouid=111319175841618131703&rtpof=true&sd=true) dosyasına bakabilirsiniz.
+
 
 ---
 
 ## 👤 Geliştirici
 
-Bu proje, [Zeynep Ak Göz](https://github.com/zeynepackgz) tarafından geliştirilmiştir.  
-📧 İletişim: zeynepackgz [at] gmail.com
+Bu proje, [Zeynep Açıkgöz](https://github.com/zeynepackgz) tarafından geliştirilmiştir.  
+📧 İletişim: zzeynepacikgozz@gmail.com
 
 ---
