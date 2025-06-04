@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <!-- Lottie kütüphanesi -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: transparent;
+        }
+
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 170px;
+            height: 170px;
+            cursor: pointer;
+            z-index: 1000;
+            transition: transform 0.2s ease;
+            background: transparent;
+        }
+
+        .chat-icon:hover {
+            transform: scale(1.1) rotate(-5deg);
+            filter: drop-shadow(0 0 10px rgb(0, 150, 255));
+        }
+
+        .chat-container {
+            background-color: transparent;
+            display: none;
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 300px;
+            max-height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-direction: column;
+            z-index: 1001;
+        }
+
+        .chat-container.visible {
+            display: flex;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .chat-header {
+            background: #008dff;
+            color: white;
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-header h3 {
+            margin: 0;
+        }
+
+        .close-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .chat-box {
+            height: 370px;
+            overflow-y: auto;
+            background-color: white;
+            padding: 15px;
+        }
+
+        .message {
+            margin: 10px 0;
+            max-width: 80%;
+            padding: 8px 12px;
+            border-radius: 15px;
+        }
+
+        .user-message {
+            background: #e0f7fa;
+            margin-left: auto;
+        }
+
+        .bot-message {
+            background: #f1f1f1;
+        }
+
+        .input-container {
+            padding: 15px;
+            border-top: 1px solid #ddd;
+            background-color: white;
+            display: flex;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            margin-right: 10px;
+        }
+
+        button.send-button {
+            background: #0092ff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .app-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .app-link, .form-link {
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .app-link {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .form-link {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .footer {
+            margin-top: 15px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .loading-dots {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .loading-dots::after {
+            content: '...';
+            animation: blink 1.4s infinite;
+        }
+        /* Uygulama listesi için stil */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .app-card {
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            border: 1px solid #ddd;
+        }
+
+        .app-card:hover {
+            background-color: #e9e9e9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .app-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .app-link-text {
+            font-size: 0.8em;
+            color: #0066cc;
+        }
+
+        .footer-text {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+
+/* Linkler için stil */
+        .link-container {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-link {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #f0f0f0;
+            color: #0066cc;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .form-link:hover {
+            background-color: #e0e0e0;
+            text-decoration: underline;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Lottie Animasyon -->
+<div class="chat-icon" id="lottieContainer" onclick="toggleChat()">
+    <lottie-player
+        id="lottieAnimation"
+        src="{{ url_for('static', filename='animations/Animations.json') }}"
+        background="transparent"
+        speed="1"
+        style="width: 100%; height: 100%;"
+        loop
+        autoplay>
+    </lottie-player>
+</div>
+
+<!-- Sohbet Kutusu -->
+<div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+        <h3>BERA Akıllı Asistan</h3>
+        <button class="close-button" onclick="toggleChat()">×</button>
+    </div>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-container">
+        <input type="text" id="userInput" placeholder="Mesajınızı Yazınız..." />
+        <button class="send-button" onclick="sendMessage()">Gönder</button>
+    </div>
+</div>
+
+<script>
+    const lottiePlayer = document.getElementById('lottieAnimation');
+    let isChatOpen = false;
+
+    function toggleChat() {
+        const chatContainer = document.getElementById('chatContainer');
+        const chatBox = document.getElementById('chatBox');
+
+        if (isChatOpen) {
+            lottiePlayer.play();
+            chatBox.innerHTML = '';
+        } else {
+            lottiePlayer.pause();
+        }
+
+        isChatOpen = !isChatOpen;
+        chatContainer.classList.toggle('visible', isChatOpen);
+
+        if (isChatOpen) {
+            setTimeout(() => document.getElementById('userInput').focus(), 100);
+        }
+    }
+
+    async function sendMessage() {
+        const userInput = document.getElementById('userInput');
+        const chatBox = document.getElementById('chatBox');
+        const message = userInput.value.trim();
+
+        if (!message) return;
+
+        chatBox.innerHTML += `<div class="message user-message">${message}</div>`;
+        chatBox.innerHTML += `<div class="message bot-message loading-dots">...</div>`;
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        try {
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ message: message })
+            });
+
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+            const data = await response.json();
+
+            console.log("Backend'den Gelen Veri:", data);
+            chatBox.querySelector('.loading-dots')?.remove();
+
+            if (typeof data.text === 'object' && data.text.apps) {
+    // Uygulama listesi mesajı
+    const appData = data.text;
+    let appHtml = `
+        <div class="message bot-message">
+            <p>${appData.text}</p>
+            <div class="app-grid">
+    `;
+    appData.apps.forEach(app => {
+        appHtml += `
+            <a href="${app.url}" target="_blank" class="app-card">
+                <span class="app-name">${app.name}</span>
+                <span class="app-link-text">Uygulamayı Gör</span>
+            </a>
+        `;
+    });
+    appHtml += `</div><p class="footer-text">${appData.footer}</p></div>`;
+    chatBox.innerHTML += appHtml;
+
+} else if (typeof data.text === 'object' && data.text.links) {
+    // Linkli mesaj (ör: form)
+    const msgObj = data.text;
+    let linkHtml = `
+        <div class="message bot-message">
+            <p>${msgObj.text}</p>
+            <div class="link-container">
+    `;
+    msgObj.links.forEach(link => {
+        linkHtml += `
+            <a href="${link.url}" target="_blank" class="form-link">${link.text}</a>
+        `;
+    });
+    linkHtml += `</div></div>`;
+    chatBox.innerHTML += linkHtml;
+
+} else if (typeof data.text === 'string') {
+    // Sadece metin cevabı
+    chatBox.innerHTML += `<div class="message bot-message">${data.text}</div>`;
+} else {
+    // Tanımsız bir durum varsa
+    chatBox.innerHTML += `<div class="message bot-message">Anlaşılamayan bir yanıt alındı.</div>`;
+}
+
+        } catch (error) {
+            console.error('Hata:', error);
+            chatBox.querySelector('.loading-dots')?.remove();
+            chatBox.innerHTML += `<div class="message bot-message error">Üzgünüm, bir hata oluştu. Lütfen daha sonra tekrar deneyin.</div>`;
+        }
+
+        userInput.value = '';
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+</script>
+</body>
+</html>

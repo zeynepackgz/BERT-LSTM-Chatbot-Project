@@ -1,0 +1,1766 @@
+{
+  "intents": [
+    {
+      "tag": "selamlama",
+      "patterns": [
+        "Merhaba",
+        "Selam",
+        "İyi günler",
+        "Selamlar",
+        "slm",
+        "N'aber?",
+        "Nasıl gidiyor?",
+        "Bugün nasılsın?",
+        "hello",
+        "Merhaba!",
+        "Selam!",
+        "İyi günler!",
+        "SLM",
+        "HELLO",
+        "Nasılsın?"
+      ],
+      "responses": [
+        "Merhaba!",
+        "Merhaba, senin için ne yapabilirim?",
+        "Merhaba, sana nasıl yardımcı olabilirim?",
+        "Merhaba, bilgi almak istediğin konu nedir?"
+      ]
+    },
+    {
+      "tag": "vedalasma",
+      "patterns": [
+        "bye",
+        "görüşürüz",
+        "teşekkürler",
+        "teşekkür ederim",
+        "sağol",
+        "sağolasın",
+        "eyvallah",
+        "thank you",
+        "thanks",
+        "tamam",
+        "tmm",
+        "tamamdır",
+        "Bye",
+        "Görüşürüz!",
+        "Teşekkürler!"
+      ],
+      "responses": [
+        "Tekrardan görüşmek üzere",
+        "Rica ederim, soru sormaktan çekinme, her zaman burdayım",
+        "Yardımcı olabildiysem ne mutlu bana, görüşürüz kendine iyi bak",
+        "Tekrardan görüşmek üzere kendine iyi bak :)"
+      ]
+    },
+    {
+      "tag": "kuruluş_yılı",
+      "patterns": [
+        "şirket kaç yılında kuruldu",
+        "bera arge ne zaman kuruldu?",
+        "bera arge yazılım ne zaman kuruldu?",
+        "şirket ne zaman faaliyete geçti",
+        "şirketin tarihçesi",
+        "şirketin kuruluşu",
+        "bera tarihçesi",
+        "bera kuruluş yılı",
+        "şirket ne zaman kuruldu",
+        "firma kuruluş yılı",
+        "bera arge yazılım ve danışmanlık kuruluş yılı ne zaman",
+        "şirket ne zaman açıldı",
+        "bera ne zaman faaliyete geçti",
+        "firma faaliyet yılı",
+        "kuruluş tarihi"
+      ],
+      "responses": [
+        "Şirketimiz 2018 yılında kurulmuştur"
+      ]
+    },
+    {
+      "tag": "hizmetler",
+      "patterns": [
+        "Bera hangi alanlarda hizmet veriyor?",
+        "Bera hangi hizmetleri sunuyor?",
+        "bera ne iş yapıyor",
+        "bera şirketi ne yapıyor?",
+        "Firmanızın sunduğu ana hizmetler nelerdir?",
+        "şirketin faaliyet alanı",
+        "bera arge ne yapar?",
+        "Bera Ar-Ge şirketi ne yapıyor",
+        "bera faaliyet alanları",
+        "Hizmetleriniz neler?",
+        "Neler sunuyorsunuz?",
+        "Şirketin hizmetleri",
+        "Hangi hizmetleri veriyorsunuz?",
+        "Faaliyet alanlarınız",
+        "şirket hakkında bilgi verebilir misin?"
+      ],
+      "responses": [
+        "Bera firması; kriptoloji ve siber güvenlik, yapay zeka uygulamaları, e-ticaret çözümleri, web tasarım, Ar-Ge & inovasyon, mobil uygulama geliştirme, oyun ve sanal gerçeklik alanlarında yenilikçi çözümler sunmaktadır.",
+        "Şirketimiz; veri şifreleme, siber tehdit analizi, saldırı tespit ve önleme sistemleri, makine öğrenimi ve doğal dil işleme uygulamaları, e-ticaret platformları, modern web tasarım çözümleri, Ar-Ge destek hizmetleri, mobil uygulama geliştirme, oyun geliştirme ve VR uygulamaları gibi hizmetler sunmaktadır."
+      ]
+    },
+    {
+      "tag": "satin_alma",
+      "patterns": [
+        "Satın alma işlemi nasıl yapılır?",
+        "Hizmetlerinizi nasıl satın alabilirim?",
+        "Bera'dan hizmet almak için ne yapmalıyım?",
+        "Satın alma süreci nasıl işler?",
+        "Hizmetlerinizi nasıl temin edebilirim?",
+        "Bera'dan servis satın alma adımları nedir?",
+        "Bera'nın hizmetlerini almak için izlemem gereken adımlar nelerdir?",
+        "Sizden nasıl satın alım yapabilirim?",
+        "Bera ile çalışmak için satın alma işlemleri nelerdir?",
+        "Hizmet satın alma konusunda bilgi alabilir miyim?",
+        "Nasıl hizmet satın alırım?",
+        "Bera'dan online satın alma nasıl yapılır?",
+        "Satın alma yöntemleri",
+        "Hizmet alım süreci",
+        "Ürün satın alma"
+      ],
+      "responses": [
+        "Alanında uzman AR-GE ekibimiz sizi detaylı olarak dinledikten sonra size verilen süre içerisinde site tamamlanıp kurulum gerçekleştirilir.",
+        "Hizmetlerimizi satın almak için web sitemizdeki iletişim formunu doldurabilir veya doğrudan [info@berayazilim.net] adresine mail atabilirsiniz. Uzman ekibimiz ihtiyaçlarınızı değerlendirdikten sonra sizinle iletişime geçecektir."
+      ]
+    },
+    {
+      "tag": "iade",
+      "patterns": [
+        "Ürünlerin iade hakkı var mıdır?",
+        "Satın aldığım yazılımı iade edebilir miyim?",
+        "iade edebilir miyim?",
+        "Ürün iade politikası nedir?",
+        "Alınan yazılımlar geri iade edilebilir mi?",
+        "İade süreci nasıl işliyor?",
+        "Yazılım ürünlerini iade etmek mümkün mü?",
+        "İade hakkım var mı?",
+        "Ürünleri geri gönderebilir miyim?",
+        "Satın aldıklarımı iade edebilir miyim?",
+        "İade koşulları nelerdir?",
+        "Yazılım iadesi yapılabilir mi?",
+        "Geri iade politikası",
+        "İade şartları",
+        "Para iadesi mümkün mü?"
+      ],
+      "responses": [
+        "Yazılımlarımız açık kaynak olması sebebi ile herhangi bir iade söz konusu değildir. Bu sebeple ürünü satın almadan önce bir demo site kurulup tüm detayları incelemeniz ve tüm isteklerinize cevap verdiğini anladığınızda satın almanız gerekir."
+      ]
+    },
+    {
+      "tag": "demo",
+      "patterns": [
+        "Demo hizmet sunuyor musunuz?",
+        "Ürünlerinizi deneme şansım var mı?",
+        "Demo veya deneme süresi var mı?",
+        "Deneme sürümü mevcut mu?",
+        "Ürünlerin test edilebileceği demo versiyon var mı?",
+        "Hizmetlerinizi satın almadan önce deneyebilir miyim?",
+        "Demo hesap açabiliyor muyuz?",
+        "Ücretsiz deneme süreci nasıl işliyor?",
+        "Demo talep edebilir miyim?",
+        "Deneme periyodu sunuyor musunuz?",
+        "Yazılımınızı test etme imkanı var mı?",
+        "Demo erişim hakkı veriyor musunuz?",
+        "Ücretsiz deneme sürümü",
+        "Demo versiyon istiyorum",
+        "Test etmek istiyorum"
+      ],
+      "responses": [
+        "Evet, demo site kurulumu ile hizmetlerimizi deneyebilir ve tüm detayları görebilirsiniz. Bu sayede ihtiyaçlarınıza uygunluğunu değerlendirebilirsiniz."
+      ]
+    },
+    {
+      "tag": "destek",
+      "patterns": [
+        "Müşteri desteğiniz nasıl çalışıyor?",
+        "Sorun yaşarsam nasıl destek alabilirim?",
+        "Bera teknik destek sağlıyor mu?",
+        "teknik destek",
+        "sorun var",
+        "hata alıyorum",
+        "Destek ekibinize nasıl ulaşabilirim?",
+        "Yardım alabileceğim bir müşteri hizmeti var mı?",
+        "Teknik problemler için kimden yardım alabilirim?",
+        "Ürünle ilgili sorun yaşıyorum, ne yapmalıyım?",
+        "Hata bildirimi nasıl yapabilirim?",
+        "Acil destek hattınız var mı?",
+        "Yazılım hatası aldığımda kime başvurmalıyım?",
+        "Canlı destek sunuyor musunuz?",
+        "Müşteri hizmetleri"
+      ],
+      "responses": [
+        "Destek ekibimiz, yaşadığınız sorunlarda size 7/24 yardımcı olmaktadır. Her türlü sorunuz için [info@berayazilim.net] veya [0 (530) 601 08 44] üzerinden bize ulaşabilirsiniz."
+      ]
+    },
+    {
+      "tag": "kariyer",
+      "patterns": [
+        "gönüllü staj",
+        "staj yapmak istiyorum",
+        "kariyer",
+        "kariyer başvurusu",
+        "kariyer fırsatları",
+        "şirketinizde çalışmak istiyorum",
+        "işe alım süreci",
+        "zorunlu staj",
+        "stajımı bera'da yapmak",
+        "iş başvurusu",
+        "Bera'da staj başvurusu nasıl yapılır?",
+        "Staj programınız var mı?",
+        "Staj yapmak için gereken şartlar nedir?",
+        "Stajyer alımlarınız ne zaman başlıyor?",
+        "Staj sonrası işe geçiş imkanı var mı?"
+      ],
+            "responses": [
+        {
+            "text": "Şirketimize olan ilginiz için teşekkür ederiz. Lütfen bu formu doldurunuz:",
+            "links": [
+                {
+                    "url": "https://form.jotform.com/250542600951046",
+                    "text": "Kariyer Başvuru Formu"
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "tag": "sirket_misyon",
+      "patterns": [
+        "Bera misyon",
+        "şirketin misyonu nedir?",
+        "firmanın misyonu nedir?",
+        "Bera şirketinin misyonu nedir?",
+        "misyon",
+        "Bera'nın misyon bildirimi nedir?",
+        "Şirket olarak misyonunuz nedir?",
+        "Bera'nın temel amacı nedir?",
+        "Kurumsal misyonunuzu öğrenebilir miyim?",
+        "Bera'yı diğer şirketlerden farklı kılan nedir?",
+        "Şirketinizin varoluş amacı nedir?",
+        "Bera'nın uzun vadeli hedefleri nelerdir?",
+        "Misyon ve vizyonunuz nedir?",
+        "Bera olarak neyi hedefliyorsunuz?",
+        "Kurumsal değerleriniz nelerdir?"
+      ],
+      "responses": [
+        "Şirketimizin misyonu; Alanında uzman güçlü kadrosu, profesyonel bakış açısı ve teknoloji odaklı kurumsal yapısı ile en son yenilikler doğrultusunda topluma ve müşteriye değer katan kaliteli ve güvenilir çözümler sunmaktır."
+      ]
+    },
+    {
+      "tag": "sirket_vizyon",
+      "patterns": [
+        "Bera vizyon",
+        "vizyon",
+        "Bera şirketinin vizyonu nedir?",
+        "firmanın vizyonu nedir?",
+        "Bera'nın vizyon bildirimi nedir?",
+        "Şirket olarak vizyonunuz nedir?",
+        "Bera'nın gelecek hedefleri nelerdir?",
+        "Uzun vadeli vizyonunuzu paylaşır mısınız?",
+        "Bera'nın 5 yıllık vizyonu nedir?",
+        "Şirketinizin gelecek planları nelerdir?",
+        "Vizyon ve misyonunuz nedir?",
+        "Bera olarak nereye ulaşmak istiyorsunuz?",
+        "Vizyoner hedefleriniz nelerdir?",
+        "Bera'nın sektördeki vizyonu nedir?",
+        "Şirketinizin gelecek vizyonu hakkında bilgi verir misiniz?"
+      ],
+      "responses": [
+        "Şiketimzin vizyonu; Müşteri ve çalışan odaklı çalışma prensibi doğrultusunda, uluslararası standartlarda hizmet sunan, ileri teknoloji bilgi sistemlerine dayalı katma değerli özgün çözümleri ile sektöre yön veren kurumsal bir yazılım firması olmaktır."
+      ]
+    },
+    {
+      "tag": "satınalma",
+      "patterns": [
+        "Satın Alma",
+        "satın alma işlemi",
+        "satın alma işlemi nasıl gerçekleştirilir?",
+        "nasıl satın alırım?",
+        "Bera'dan ürün satın alma süreci nasıl işliyor?",
+        "Hizmetlerinizi nasıl satın alabilirim?",
+        "Online satın alma yapabilir miyim?",
+        "Satın alma adımları nelerdir?",
+        "Ödeme seçenekleriniz neler?",
+        "Fatura bilgilerimi nasıl girebilirim?",
+        "Sipariş süreci ne kadar sürüyor?",
+        "Satın alma için hesap açmam gerekiyor mu?",
+        "Ürünleri nasıl satın alabilirim?",
+        "Satın alma sayfasına nasıl ulaşabilirim?",
+        "Kredi kartıyla ödeme yapabilir miyim?"
+      ],
+      "responses": [
+        "Alanında uzman AR-GE ekibimiz sizi detaylı olarak dinledikten sonra size verilen süre içerisinde site tamamlanıp kurulum gerçekleştirilir."
+      ]
+    },
+    {
+      "tag": "fiyat",
+      "patterns": [
+        "ne kadar tutar",
+        "parası ne kadar",
+        "ortalama fiyatı nedir?",
+        "fiyatı nedir?",
+        "hizmeti ne kadar tutar",
+        "fiyatı ne kadar",
+        "kaç tl'ye alırım?",
+        "kaç tl tutar?",
+        "istediğim projenin fiyatı nedir?",
+        "istediğim hizmet kaç tl tutar?",
+        "Bera'nın hizmet fiyatları nedir?",
+        "Ürünlerinizin fiyat listesini alabilir miyim?",
+        "Fiyat politikalarınız nelerdir?",
+        "Hizmet bedeli hakkında bilgi verir misiniz?",
+        "Proje bazlı fiyatlandırma yapıyor musunuz?"
+      ],
+      "responses": ["Fiyat bilgisini şirketimiz sizinle iletişime geçtiğinde belirtecektir."]
+    },
+    {
+      "tag": "genelsoru_iade",
+      "patterns": [
+        "ürünlerin iade hakkı var mı?",
+        "ürünü beğenmedim iade olur mu?",
+        "iade",
+        "iade hakkı var mı?",
+        "iade etmek istiyorum",
+        "ürünü beğenmedim iade etmek istiyorum",
+        "iade edebilir miyim?",
+        "ürün hata veriyor iade edebilir miyim?",
+        "ürün iadesi olabiliyor mu?",
+        "iade süreci nasıl işliyor?",
+        "iade için ne yapmalıyım?",
+        "iade şartları nelerdir?",
+        "iade süresi kaç gün?",
+        "online iade başvurusu yapabilir miyim?",
+        "iade ücreti alıyor musunuz?"
+      ],
+      "responses": [
+        "Yazılımlarımı açık kaynak olması sebebi ile herhangi bir iade söz konusu değildir. Bu sebeple ürünü satın almadan önce bir demo site kurulup tüm detayları incelemeniz ve tüm isteklerinize cevap verdiğini anladığınızda satın almanız gerekir."
+      ]
+    },
+    {
+      "tag": "genelsoru_eğitim",
+      "patterns": [
+        "Daha önce hiç web site kullanmadık eğitim veriyor musunuz?",
+        "web site kullanım eğitimi veriyor musunuz?",
+        "web site eğitimi",
+        "web site eğitim veriyor musunuz?",
+        "yazılımınızı nasıl kullanacağımı öğrenebilir miyim?",
+        "kullanım eğitimi veriyor musunuz?",
+        "ürününüzün eğitim videoları var mı?",
+        "panel kullanım eğitimi alabilir miyim?",
+        "yönetim paneli eğitimi veriyor musunuz?",
+        "başlangıç eğitiminiz var mı?",
+        "yazılımınızın kullanım kılavuzu var mı?",
+        "online eğitim imkanınız var mı?",
+        "ürün eğitimi almak istiyorum",
+        "teknik destek ekibiniz eğitim veriyor mu?",
+        "kullanım rehberi sunuyor musunuz?"
+      ],
+      "responses": [
+        "Tüm web site içeriğinizi kolayca düzenleyebileceğiniz kullanımı basit bir yönetim paneline sahip olacaksınız bu Türkçe panel yardımı kolayca içeriklerinizi teknik bilgiye ihtiyaç kalmadan kendiniz girebilirsiniz. Yinede sorun yaşadığınız da destek ekibimizi aramaktan hiç çekinmeyin."
+      ]
+    },
+    {
+      "tag": "genelsoru_içerik",
+      "patterns": [
+        "web site kurulduktan sonra içerik nasıl girilir?",
+        "web site içeriği nasıl girilir?",
+        "web siteyi kendi içeriğimle nasıl doldururum?",
+        "web siteye şirket bilgilerimi nasıl eklerim?",
+        "web site içeriği",
+        "içerik yönetim sistemi nasıl çalışır?",
+        "kendi içeriklerimi nasıl ekleyebilirim?",
+        "admin panelinden içerik girişi nasıl yapılır?",
+        "web siteme yeni sayfa ekleyebilir miyim?",
+        "ürün bilgilerini nasıl girebilirim?",
+        "içerikleri düzenlemek için ne yapmalıyım?",
+        "yönetim panelinde içerik ekleme nasıl yapılır?",
+        "web sitemin içeriğini nasıl güncelleyebilirim?",
+        "blog yazılarını nasıl eklerim?",
+        "resim ve videoları nasıl yüklerim?"
+      ],
+      "responses": [
+        "Web site kurulumu tamamlandıktan sonra genelde tüm müşterilerimizin içeriklerini editörlerimiz tarafından girmekteyiz. Bu satın alma aşamasında anlaşmaya bağlı olarak değişkenlik gösterebilir. Eğer siz giriş yapmak isterseniz tarafınıza verilen admin bilgilerinizi kullanarak gelişmiş panel yardımı ile kolayca girebilirsiniz."
+      ]
+    },
+    {
+      "tag": "genelsoru_içeriktaşıma",
+      "patterns": [
+        "şimdiki web site içeriğini yeni siteye taşıyabilir miyiz?",
+        "eski web site içeriğini yeni web siteye taşıyabilir miyiz?",
+        "eski web site yeni web site",
+        "içerik taşıma",
+        "mevcut içeriklerimi yeni siteme aktarabilir miyim?",
+        "web site geçişinde içerik transferi yapıyor musunuz?",
+        "içerik migrasyon hizmetiniz var mı?",
+        "eski siteden yeni siteye veri aktarımı",
+        "ürün bilgilerimi yeni siteme taşıyabilir misiniz?",
+        "blog yazılarımı yeni siteye nasıl aktarırım?",
+        "içerik transferi ne kadar sürer?",
+        "veri taşıma işlemi nasıl yapılıyor?",
+        "eski web sitemdeki resimleri yeni siteye taşıyabilir miyim?",
+        "içerik aktarımı için ne yapmalıyım?",
+        "müşteri verilerimi yeni sisteme aktarabilir miyiz?"
+
+      ],
+      "responses": [
+        "Eski web sitenizde bulunan tüm içeriklerinizi dilerseniz alanında uzman editörlerimiz tarafından eksiksiz olarak girilir. Siteniz bu aşamalarda yayında olmayacaktır ve yarım içerikle müşteri ve ziyaretçi kaybı yaşamazsınız web siteniz tüm bilgiler girildikten sonra yayına alınacaktır."
+      ]
+    },
+    {
+      "tag": "genelsorular_firmahakkında",
+      "patterns": [
+        "firmanız hangi alanlarda hizmet veriyor?",
+        "Bera Ar-Ge'nin hangi hizmetleri var?",
+        "bera şirketi hangi alanlarda hizmet veriyor?",
+        "bera şirketi hangi alanlarda faaliyet veriyor?",
+        "bera hizmet alanları nelerdir?",
+        "bera ar-ge ne yapar?",
+        "bera ar-ge hangi alanlarda çalışır?",
+        "Bera'nın uzmanlık alanları neler?",
+        "hangi sektörlerde çözümleriniz var?",
+        "teknoloji alanında neler sunuyorsunuz?",
+        "şirketinizin faaliyet gösterdiği alanlar nedir?",
+        "Bera'nın çalıştığı teknoloji dalları neler?",
+        "hizmet portföyünüzde neler var?",
+        "Bera hangi teknolojik alanlarda faaliyet gösteriyor?",
+        "ürün ve hizmet yelpazeniz nedir?"
+      ],
+      "responses": [
+        "Bera firması; kriptoloji ve siber güvenlik, yapay zeka uygulamaları, e-ticaret çözümleri, web tasarım, Ar-Ge & inovasyon, mobil uygulama geliştirme, oyun ve sanal gerçeklik alanlarında yenilikçi çözümler sunmaktadır."
+      ]
+    },
+    {
+      "tag": "genelsoru_chatbot",
+      "patterns": [
+        "Seni hangi firma proje olarak geliştirdi?",
+        "sen kimsin?",
+        "sen ne işe yarıyorsun?",
+        "senin işin ne?",
+        "Kendini kısaca tanımlayabilir misin?",
+        "kendini tanıt",
+        "adın ne?",
+        "isim",
+        "ismin ne",
+        "ad",
+        "ne tür bir botsun?",
+        "görevin nedir?",
+        "sana nasıl hitap edeyim?",
+        "kim tarafından oluşturuldun?",
+        "yaratıcın kim?",
+        "hangi şirketin ürünüsün?",
+        "ne amaçla yapıldın?",
+        "yetkinliklerin neler?",
+        "ne yapabilirsin?",
+        "nasıl bir asistansın?",
+        "hangi teknolojileri kullanıyorsun?",
+        "hangi firma seni geliştirdi?",
+        "geliştirici firman hangisi?",
+        "ne tür soruları cevaplayabilirsin?",
+        "sınırların neler?"
+      ],
+      "responses": [
+        "Ben, Bera akıllı asistan. Bera Ar-Ge Yazılım ve Danışmanlık firması için geliştirilmiş bir chatbot’um. Sizlerin sorularına yardımcı olmak için oluşturuldum."
+      ]
+    },
+    {
+      "tag": "genelsoru?_iletişim",
+      "patterns": [
+        "Şirketle nasıl iletişim kurabilirim?",
+        "şirket iletişim adresi",
+        "iletişim",
+        "bera iletişim",
+        "bera ar-ge yazılım iletişim",
+        "bera mail adresi",
+        "bera ar-ge yazılım mail adresi",
+        "bera telefon numarası",
+        "bera ar-ge yazılım telefonu",
+        "bera arge yazılım adresi",
+        "bera ar-ge yazılım malatya adresi",
+        "şubeler",
+        "şubeniz",
+        "işyerleri",
+        "iş yeriniz",
+        "şubeleriniz nerede?",
+        "adresiniz nerede?",
+        "işyeriniz nerede?",
+        "nerede faaliyet gösteriyorsunuz?",
+        "iletişim bilgileriniz neler?",
+        "müşteri hizmetlerine nasıl ulaşırım?",
+        "destek hattı numaranız nedir?",
+        "resmi mail adresiniz nedir?",
+        "ofis adresinizi paylaşır mısınız?",
+        "şirket merkeziniz nerede?",
+        "malatya ofis adresiniz nedir?",
+        "ankara ofis adresiniz nedir?",
+        "şirketinizin resmi iletişim kanalları neler?",
+        "whatsapp hattınız var mı?",
+        "canlı destek hizmetiniz var mı?",
+        "çalışma saatleriniz nedir?",
+        "hafta sonu ulaşabilir miyim?",
+        "yurtdışından nasıl iletişim kurabilirim?",
+        "şikayet ve öneri hattınız nedir?"
+      ],
+      "responses": [
+        "Bera Ar-Ge Yazılım ve Danışmanlık ile [0 (530) 601 08 44] bu telefon numarasından veya [info@berayazilim.net] mail adresinden iletişime geçebilirsiniz. Eğer şirketimizi ziyaret etmek isterseniz Malatya Teknokent veya Ankara şubemizi ziyaret edebilirsiniz."
+      ]
+    },
+    {
+      "tag": "genelsoru_hizmetsorunu",
+      "patterns": [
+        "Hizmetinizle ilgili bir sorun yaşıyorum, nasıl destek alabilirim?",
+        "Hizmetinizin kurulumu sırasında hata alıyorum, kimden yardım alabilirim?",
+        "Mobil uygulamam hata veriyor, destek alabilir miyim?",
+        "Web sitem açılmıyor, nasıl çözüm bulabilirim?",
+        "Aldığım yazılım/hizmet çalışmıyor, kiminle iletişime geçebilirim?",
+        "teknik destek",
+        "sorun yaşıyorum",
+        "çalışmıyor",
+        "hata alıyorum",
+        "yardım edebilir misiniz?",
+        "yardım",
+        "destek",
+        "hatalı ürün",
+        "hata",
+        "ürün çalışmıyor",
+        "web sitemde hata alıyorum",
+        "websiteme veri yükleyemiyorum",
+        "websiteme içerik yükleyemiyorum",
+        "websiteme ulaşılamıyor",
+        "404 hatası",
+        "error",
+        "sistem hatası",
+        "sunucu problemi",
+        "yazılım hatası",
+        "servis dışı",
+        "bağlantı sorunu",
+        "performans problemi",
+        "teknik arıza",
+        "acil destek",
+        "ürün arızası",
+        "yazılım çöktü",
+        "sistem çalışmıyor",
+        "teknik problem",
+        "hata kodu",
+        "servis kesintisi",
+        "erişim sorunu",
+        "login olamıyorum",
+        "sayfa açılmıyor"
+      ],
+      "responses": [
+        "Yaşadığınız sorunu detaylandırarak lütfen [info@berayazilim.net] adresine mail gönderin veya [0 (530) 601 08 44] üzerinden bizimle iletişime geçin. Destek ekibimiz 7/24 yanınızdadır."
+      ]
+    },
+    {
+      "tag": "ios_android",
+      "patterns": [
+        "iOS ve Android uygulama geliştirme hizmetleriniz nelerdir?",
+        "mobil uygulama çözümleriniz var mı?",
+        "Hangi iOS ve Android uygulama geliştirme hizmetlerini sunuyorsunuz?",
+        "iOS ve Android platformları için hangi uygulama geliştirme hizmetleri veriyorsunuz?",
+        "iOS ve Android için sunduğunuz uygulama geliştirme çözümlerini nelerdir?",
+        "mobil uygulama yapabiliyor musunuz?",
+        "telefon uygulaması geliştiriyor musunuz?",
+        "iOS uygulama yapıyor musunuz?",
+        "Android uygulama geliştirme hizmetiniz var mı?",
+        "mobil uygulama fiyatları nedir?",
+        "uygulama yapım süreci nasıl işliyor?",
+        "mobil uygulama ",
+        "iOS/Android uygulama geliştiriyor musunuz?",
+        "mobil uygulama yazılımı yapıyor musunuz?",
+        "Flutter ile uygulama geliştiriyor musunuz?",
+        "React Native uygulama hizmetiniz var mı?",
+        "hibrit mobil uygulama geliştirme",
+        "native mobil uygulama geliştirme",
+        "mobil uygulama hizmetiniz var mı?",
+        "mobil uygulama yayınlama desteği veriyor musunuz?"
+      ],
+      "responses": [
+        "iOS ve Android platformlarına özel yüksek performanslı, kullanıcı dostu ve güvenli mobil uygulamalar geliştiriyoruz."
+      ]
+    },
+    {
+      "tag": "cross_platform",
+      "patterns": [
+        "Cross-platform uygulamalar geliştiriyor musunuz?",
+        "Cross-platform uygulama geliştirme hizmetiniz var mı?",
+        "Hem iOS hem de Android cihazlar için uygulama geliştiriyor musunuz?",
+        "Cross-platform uygulama geliştirme konusunda deneyiminiz var mı?",
+        "Flutter ile uygulama geliştiriyor musunuz?",
+        "React Native kullanıyor musunuz?",
+        "Hibrit mobil uygulama geliştirme hizmetiniz var mı?",
+        "Tek kodla çift platform uygulaması yapıyor musunuz?",
+        "Cross-platform mobil çözümler sunuyor musunuz?",
+        "Flutter/React Native deneyiminiz nedir?",
+        "Cross-platform uygulama maliyetleri nedir?",
+        "Hibrit uygulama avantajlarınız neler?",
+        "Cross-platform uygulama geliştirme süreci nasıl?",
+        "Tek kod tabanlı uygulama geliştirme",
+        "Cross-platform uygulama performansı nasıl?",
+        "Hibrit uygulama desteği veriyor musunuz?",
+        "Flutter uygulama geliştirme süreci",
+        "React Native ile uygulama geliştirme",
+        "Cross-platform uygulama bakım hizmetiniz var mı?",
+        "Hibrit uygulama güncelleme desteği"
+      ],
+      "responses": [
+        "Evet, tek bir kod tabanı ile hem iOS hem de Android cihazlarda çalışan, zamandan ve maliyetten tasarruf sağlayan cross-platform uygulamalar sunuyoruz."
+      ]
+    },
+    {
+      "tag": "ux_uı",
+      "patterns": [
+        "Kullanıcı deneyimi (UX) ve arayüz tasarımı (UI) hizmetleriniz neler?",
+        "UX ve UI tasarım hizmetlerinizi nasıl sunuyorsunuz?",
+        "Kullanıcı deneyimi ve arayüz tasarımında hangi hizmetleri sağlıyorsunuz?",
+        "UX/UI tasarımı konusunda hangi çözümlerini sunuyorsunuz?",
+        "UX",
+        "UI",
+        "Kullanıcı arayüzü tasarımı yapıyor musunuz?",
+        "Kullanıcı deneyimi tasarım hizmetiniz var mı?",
+        "UI/UX tasarım fiyatlarınız nedir?",
+        "Arayüz tasarım süreciniz nasıl işliyor?",
+        "Kullanıcı dostu arayüz tasarımı",
+        "Modern UI tasarımı",
+        "UX araştırma hizmetiniz var mı?",
+        "Kullanıcı testi yapıyor musunuz?",
+        "Wireframe ve prototip oluşturuyor musunuz?",
+        "UI kit hazırlıyor musunuz?",
+        "Tasarım sistemleri oluşturuyor musunuz?",
+        "Mobil uygulama arayüz tasarımı",
+        "Web sitesi kullanıcı deneyimi tasarımı",
+        "Etkileşimli prototipleme",
+        "Kullanılabilirlik testleri",
+        "Tasarım odaklı kullanıcı deneyimi"
+      ],
+      "responses": [
+        "Kullanıcı odaklı, estetik ve fonksiyonel arayüz tasarımları ile uygulamalarınızın kullanım kolaylığını ve görsel çekiciliğini artırıyoruz."
+      ]
+    },
+    {
+      "tag": "e_ticaret_mobil_uygulama",
+      "patterns": [
+        "E-ticaret için özel mobil uygulamalar geliştiriyor musunuz?",
+        "E-ticaret alanında mobil uygulama geliştirme hizmeti sunuyor musunuz?",
+        "E-ticaret mobil uygulamaları tasarlıyor musunuz?",
+        "Online alışveriş için mobil uygulamalarınız var mı?",
+        "e-ticaret mobil uygulama tasarımı",
+        "mobil alışveriş uygulaması yapıyor musunuz?",
+        "e-ticaret uygulaması fiyatları nedir?",
+        "mobil mağaza uygulaması geliştirme",
+        "ürün satış uygulaması yaptırabilir miyim?",
+        "e-ticaret app geliştirme süreci nasıl?",
+        "mobil ödeme entegrasyonlu uygulama",
+        "e-ticaret uygulama özellikleri neler?",
+        "iOS/Android alışveriş uygulaması",
+        "mobil e-ticaret çözümlerini sunuyor musunuz?",
+        "e-ticaret uygulama maliyeti nedir?",
+        "mobil pazaryeri uygulaması geliştirme",
+        "ürün katalog uygulaması yapıyor musunuz?",
+        "e-ticaret uygulama tasarımı ve geliştirme",
+        "mobil alışveriş sepeti entegrasyonu",
+        "e-ticaret uygulaması yayınlama desteği"
+      ],
+      "responses": [
+        "Evet, online alışveriş deneyimini mobil cihazlara taşıyacak, hızlı ve güvenilir e-ticaret mobil uygulamaları tasarlıyoruz."
+      ]
+    },
+    {
+      "tag": "mobil_oyun_teknolojileri",
+      "patterns": [
+        "Mobil oyun geliştirme hizmetiniz var mı?",
+        "Hangi platformlar için oyun geliştiriyorsunuz?",
+        "Mobil oyun geliştirme süreci nasıl işler?",
+        "Oyun grafik tasarımı ve 2D/3D karakter tasarımınız var mı?",
+        "Oyunlarınızın performansını nasıl test ediyorsunuz?",
+        "Mobil ve masaüstü oyunlar için optimizasyon ve test desteği sağlıyor musunuz?",
+        "Google Play ve App Store'da oyun yayınlama desteği veriyor musunuz?",
+        "Unity ile oyun geliştirme desteği sağlıyor musunuz?",
+        "Cross-platform oyun geliştirme hizmetiniz var mı?",
+        "Oyunlarınızı nasıl yayınlıyorsunuz?",
+        "Oyun grafikleri ve karakter tasarımı nasıl yapılır?",
+        "Oyunlarınızda performans testi, kullanıcı geri bildirim analizi yapıyor musunuz?"
+      ],
+      "responses": [
+        "Mobil ve masaüstü platformlar için oyunlar geliştiriyoruz. 2D/3D grafik tasarımı, oyun testi, optimizasyon ve platform yayınlama süreçlerinde yardımcı oluyoruz. Ayrıca, oyunlarınızın Google Play, App Store, Steam gibi platformlarda yayımlanmasını sağlıyoruz."
+      ]
+    },
+    {
+      "tag": "vr_teknoloji",
+      "patterns": [
+        "Sanal gerçeklik çözümleriniz hangi alanlarda kullanılıyor?",
+        "VR uygulamalarınız hangi sektörlere hitap ediyor?",
+        "Eğitim, sağlık, turizm ve eğlence sektörlerinde VR projeleri yapıyor musunuz?",
+        "Hangi VR cihazlarıyla uyumlu uygulamalar geliştiriyorsunuz?",
+        "Sanal turlar ve VR etkinlik çözümleri sunuyor musunuz?",
+        "VR teknolojisi ile hangi platformlarla uyumlu çözümler geliştirdiniz?",
+        "Sanal gerçeklik uygulamalarınızın kullanım alanları nelerdir?",
+        "Eğitim ve sağlık alanlarında VR simülasyonları sağlıyor musunuz?",
+        "VR kullanarak sanal fuar ve turlar düzenliyor musunuz?",
+        "Hangi VR cihazlarıyla uyumlu yazılımlarınız var?",
+        "Sanal gerçeklik ile eğitim ve terapötik çözümler sunuyor musunuz?",
+        "VR destekli sağlık ve rehabilitasyon çözümleri hakkında bilgi verebilir misiniz?"
+      ],
+      "responses": [
+        "Eğitim, sağlık, turizm, eğlence ve endüstri sektörlerinde sanal gerçeklik çözümleri sunuyoruz. Oculus, HTC Vive ve diğer platformlarla uyumlu VR uygulamaları geliştiriyoruz."
+      ]
+    },
+    {
+      "tag": "arge_dijital_dönüşüm",
+      "patterns": [
+        "Ar-Ge projeleriniz hangi alanlarda faaliyet gösteriyor?",
+        "Teknolojik danışmanlık hizmeti sağlıyor musunuz?",
+        "Hibe ve fon başvurularında destek sağlıyor musunuz?",
+        "Dijital dönüşüm çözümleriniz hangi sektörlere yöneliktir?",
+        "İşletmem için teknoloji danışmanlığı alabilir miyim?",
+        "Yapay zeka ve büyük veri konularında Ar-Ge çalışmaları yapıyor musunuz?",
+        "KOSGEB ve TÜBİTAK gibi destek programlarına başvuru desteği veriyor musunuz?",
+        "İmalat sektörüne özel dijital dönüşüm projeleriniz var mı?",
+        "Blokzincir veya IoT teknolojileriyle ilgili Ar-Ge projeleriniz bulunuyor mu?",
+        "Danışmanlık hizmetleriniz dijitalleşme sürecinde nasıl katkı sağlıyor?",
+        "Endüstri 4.0 ve otomasyon çözümlerinizden kimler faydalanabilir?",
+        "Hangi sektörlerde dijital dönüşüm desteği veriyorsunuz?",
+        "Ar-Ge teşviklerinden yararlanmak için nasıl bir süreç izleniyor?"
+      ],
+      "responses": [
+        "Ar-Ge, dijital dönüşüm, teknoloji danışmanlığı ve hibe destekleri konularında kapsamlı hizmetler sunuyoruz. Sektöre özel çözümlerle inovasyon süreçlerinize katkı sağlıyoruz."
+      ]
+    },
+    {
+      "tag": "veri_analitiği_ai",
+      "patterns": [
+        "Veri analitiği ve yapay zeka çözümleriniz nasıl çalışıyor?",
+        "Yapay zeka ve veri analitiği entegrasyonları nasıl sağlanıyor?",
+        "Veri analizi ve yapay zeka entegrasyonlarından nasıl faydalanabilirim?",
+        "Yapay zeka destekli veri analitiği çözümleriniz nasıl uygulanıyor?",
+        "veri analitiği çözümleriniz ",
+        "yapay zeka destekli veri analitiği",
+        "makine öğrenmesi çözümleriniz",
+        "derin öğrenme uygulamaları",
+        "veri analizi hizmetleriniz",
+        "tahmine dayalı analitik",
+        "büyük veri analizi",
+        "veri görselleştirme",
+        "veri tabanlı karar destek",
+        "veri bilimi uygulamaları",
+        "öneri sistemleri",
+        "veri güvenliği analitiği",
+        "gerçek zamanlı veri analizi",
+        "iş zekası çözümleriniz"
+      ],
+      "responses": [
+        "Verilerinizi analiz ederek, yapay zeka destekli çözümlerle işletmenizin verimliliğini artıracak özel modeller geliştiriyoruz."
+      ]
+    },
+    {
+      "tag": "web_tasarım",
+      "patterns": [
+        "Web tasarım hizmetleriniz nelerdir?",
+        "Mobil uyumlu ve kullanıcı dostu web tasarımlar yapıyor musunuz?",
+        "Kurumsal firmalar için özel web siteleri tasarlıyor musunuz?",
+        "Web siteniz farklı cihazlara uyumlu çalışıyor mu?",
+        "SEO uyumlu, hızlı ve modern web arayüzleri sunuyor musunuz?",
+        "Responsive ve dönüşüm odaklı web tasarım hizmetleriniz var mı?",
+        "Kurumsal kimliğe uygun profesyonel web tasarımı yapıyor musunuz?",
+        "Web site yenileme veya yeniden tasarım hizmetleriniz mevcut mu?"
+      ],
+      "responses": [
+        "Markanıza özel, mobil uyumlu, kullanıcı odaklı ve SEO dostu web tasarım çözümleri sunuyoruz. Kurumsal ve modern sitelerle dijital varlığınızı güçlendiriyoruz."
+      ]
+    },
+    {
+      "tag": "web_site_hizmetleri",
+      "patterns": [
+        "Web siteniz SEO uyumlu mu?",
+        "SEO kriterlerine uygun web tasarımı yapıyor musunuz?",
+        "Web sitesi bakım ve güncelleme hizmetleriniz neler?",
+        "Site hızı, güvenlik ve SEO için optimizasyon yapıyor musunuz?",
+        "Arama motorlarında üst sıralara çıkmak için ne yapıyorsunuz?",
+        "Web sitemin performansını nasıl artırabilirim?",
+        "Web sitesi düzenli olarak güncelleniyor mu?",
+        "Yedekleme, SSL yenileme ve güvenlik hizmetleri sunuyor musunuz?",
+        "SEO analiz raporu veya içerik güncellemesi gibi destekleriniz var mı?"
+      ],
+      "responses": [
+        "Web sitenizin SEO uyumluluğunu sağlıyor, düzenli bakım, güvenlik ve performans güncellemeleri ile dijital varlığınızı koruyoruz."
+      ]
+    },
+    {
+      "tag": "e_ticaret_mobil_uygulama",
+      "patterns": [
+        "E-ticaret sitesi ve mobil uygulamalar geliştiriyor musunuz?",
+        "E-ticaret yazılımı konusunda hangi çözümlerini sunuyorsunuz?",
+        "Online mağaza açmak isteyenler için nasıl bir süreç izliyorsunuz?",
+        "E-ticaret platformlarınızın özellikleri nelerdir?",
+        "e-ticaret",
+        "E- ticaret",
+        "online mağaza",
+        "dijital pazaryeri",
+        "ürün kataloğu",
+        "sepet sistemi",
+        "müşteri yönetimi",
+        "stok takip sistemi",
+        "kargo entegrasyonu",
+        "çoklu dil desteği",
+        "çoklu para birimi",
+        "ürün filtreleme",
+        "kişiselleştirilmiş öneriler",
+        "sosyal medya entegrasyonu",
+        "indirim kuponları",
+        "üyelik sistemi",
+        "yorum ve puanlama",
+        "canlı destek entegrasyonu"
+      ],
+      "responses": [
+        "Modern, kullanıcı dostu ve güvenli e-ticaret web siteleri ile mobil uygulamalar geliştiriyoruz. Tasarım, ödeme entegrasyonu ve içerik yönetimi dahil tüm aşamalarda yanınızdayız."
+      ]
+    },
+    {
+      "tag": "e_ticaret_çözümleri",
+      "patterns": [
+        "E-ticaret siteniz için sunduğunuz dijital çözümler neler?",
+        "SEO ve dijital pazarlama hizmetleriniz nelerdir?",
+        "CRM entegrasyonu yapıyor musunuz?",
+        "Stok takibi ve envanter yönetimi nasıl sağlanıyor?",
+        "e ticaret hizmetleriniz ve ürünleriniz",
+        "Google Ads veya sosyal medya pazarlaması desteği veriyor musunuz?",
+        "e ticaret çözümleriniz nelerdir?",
+        "CRM sistemleri ile e-ticaret platformları entegre edilebilir mi?",
+        "Email pazarlama veya müşteri segmentasyonu çözümleriniz mevcut mu?",
+        "Performans takibi ve analitik raporlama hizmetiniz var mı?"
+      ],
+      "responses": [
+        "E-ticaret siteleri için SEO, CRM entegrasyonu, stok yönetimi ve dijital pazarlama gibi alanlarda kapsamlı çözümler sunuyoruz."
+      ]
+    },
+    {
+      "tag": "ai_çözümleri",
+      "patterns": [
+        "Yapay zeka çözümleriniz hangi alanlarda kullanılıyor?",
+        "AI destekli hizmetleriniz nelerdir?",
+        "Makine öğrenimi uygulamalarınız var mı?",
+        "NLP veya metin işleme çözümleri sunuyor musunuz?",
+        "Görüntü işleme sistemleriniz hangi sektörlerde kullanılıyor?",
+        "Öneri sistemleriniz nasıl çalışıyor?",
+        "yapay zeka ürünleri",
+        "Chatbot veya müşteri hizmetlerinde AI kullanıyor musunuz?",
+        "yapay zeka çözümleriniz ve ürünleriniz neler?",
+        "Yüz tanıma, plaka okuma gibi çözümler geliştiriyor musunuz?"
+      ],
+      "responses": [
+          "Makine öğrenimi, doğal dil işleme, görüntü işleme, öneri sistemleri ve otomasyon gibi alanlarda uçtan uca yapay zeka çözümleri sunuyoruz."
+      ]
+    },
+     {
+      "tag": "siber_guvenlik_cozumleri",
+      "patterns": [
+        "Şirketiniz siber güvenlik alanında nasıl çözümler sunuyor?",
+        "Siber tehditlere karşı ne tür önlemler alıyorsunuz?",
+        "Kriptoloji hizmetleriniz neler?",
+        "Sızma testi hizmetiniz var mı?",
+        "Ağ güvenliği alanında ne tür çözümler sağlıyorsunuz?",
+        "Güvenlik operasyon merkezi hakkında bilgi verir misiniz?"
+      ],
+      "responses": [
+        "Veri şifreleme, anahtar yönetimi, siber tehdit analizi, IDS/IPS sistemleri, blockchain güvenliği, penetrasyon testleri, kritik altyapı güvenliği ve DDoS koruma çözümleri sunuyoruz."
+      ]
+    },
+    {
+      "tag": "veri_sifreleme_ve_koruma",
+      "patterns": [
+        "Verilerimizi nasıl şifreliyorsunuz?",
+        "Anahtar yönetimi sisteminiz nasıl çalışıyor?",
+        "Hangi şifreleme algoritmalarını kullanıyorsunuz?",
+        "Veri kaybını önlemek için ne tür sistemleriniz var?"
+      ],
+      "responses": [
+        "Gelişmiş şifreleme algoritmalarımız ile verilerinizin güvenliğini sağlıyor, anahtar yönetimi süreçlerinizi optimize ederek veri bütünlüğü ve gizliliğini koruyoruz."
+      ]
+    },
+    {
+      "tag": "siber_saldiri_tespiti_ve_mudahale",
+      "patterns": [
+        "Siber saldırıları nasıl tespit ediyorsunuz?",
+        "IDS ve IPS sistemleriniz nasıl çalışır?",
+        "Olay müdahale süreci nasıl işliyor?",
+        "7/24 güvenlik izleme sisteminiz var mı?"
+      ],
+      "responses": [
+        "Sistemlerinizi 7/24 izleyerek potansiyel tehditleri erken tespit ediyor ve anında müdahale yöntemleri ile zarar görmenizi engelliyoruz."
+      ]
+    },
+    {
+      "tag": "blockchain_guvenligi",
+      "patterns": [
+        "Blockchain projelerinde güvenliği nasıl sağlıyorsunuz?",
+        "Akıllı kontratlar için güvenlik testleri yapıyor musunuz?",
+        "Kripto cüzdan güvenliği konusunda çözümleriniz neler?"
+      ],
+      "responses": [
+        "Blockchain projeleriniz için özel güvenlik testleri ve risk analizleri yaparak, sistemlerinizin güvenliğini temin ediyoruz."
+      ]
+    },
+    {
+      "tag": "ddos_koruma",
+      "patterns": [
+        "DDoS saldırılarına karşı nasıl önlem alıyorsunuz?",
+        "Anlık saldırı tespiti için hangi sistemleri kullanıyorsunuz?",
+        "Bulut tabanlı DDoS korumanız var mı?"
+      ],
+      "responses": [
+        "Gelişmiş DDoS koruma çözümlerimiz ile sistemlerinizi dağıtılmış hizmet engelleme saldırılarına karşı sürekli izliyor ve güvence altına alıyoruz."
+      ]
+    },
+    {
+      "tag": "pentest_hizmeti",
+      "patterns": [
+        "Pentest hizmeti sunuyor musunuz?",
+        "Penetrasyon testi nasıl yapılır?",
+        "Hangi araçlarla pentest yapıyorsunuz?",
+        "Raporlama süreci nasıl işliyor?"
+      ],
+      "responses": [
+        "Sistemlerinizdeki güvenlik açıklarını tespit etmek amacıyla kapsamlı penetrasyon testleri gerçekleştiriyoruz."
+      ]
+    },
+    {
+      "tag": "genelsoru_şirketyöneticihakkında",
+      "patterns": [
+        "şirket yöneticisi kimdir?",
+        "bera ar-ge'nin CEO kim?",
+        "CEO",
+        "Bera Ar-Ge yönetici",
+        "Bera Ar-ge kurucusu",
+        "Bera Ar-ge Yöneticisi kimdir?",
+        "Yöneticisi kimdir?",
+        "şirketin yöneticisi kimdir?",
+        "Firmanızın yöneticisi kimdir?",
+        "Genel müdür kimdir?",
+        "Ali Arı kimdir?",
+        "Doç. Dr. Ali arı kimdir?",
+        "kurucu kim",
+        "şirket sahibi kim",
+        "yönetim ekibi",
+        "başkan kim",
+        "lider kim",
+        "yönetici bilgileri"
+      ],
+      "responses": [
+        "Doç. Dr. Ali Arı, İnönü Üniversitesi Bilgisayar Mühendisliği Bölümü'nde öğretim üyesi olup yapay zeka, bilgisayarla görü ve veri bilimi alanlarında çalışmalar yapmaktadır. Aynı zamanda Bera Ar-Ge Yazılım ve Danışmanlık Hizmetleri Sanayi şirketinin CEO’su ve yöneticisidir."
+      ]
+    },
+    {
+      "tag": "şirket_çalışma_saat",
+      "patterns": [
+        "bera ne zaman açık",
+        "şirket saat kaçta açılıyor?",
+        "şirket saat kaçta kapanıyor?",
+        "bera ar-ge saat kaçta açılıyor?",
+        "bera ar-ge saat kaçta kapanıyor?",
+        "bera saat kaça kadar açık",
+        "şirket saat kaça kadar açık",
+        "hangi saatler arasında çalışıyorsunuz?",
+        "hangi günler çalışıyorsunuz?",
+        "bera ar-ge hangi günler açık?",
+        "Bera Ar-ge hangi günler çalışıyor?",
+        "çalışma saatleri",
+        "bera arge çalışma saatleri",
+        "Bera Ar-Ge çalışma saatleri",
+        "şirketin çalışma saatleri",
+        "firmanızın çalışma saatleri",
+        "bera arge çalışma saatleri nedir?",
+        "mesai saatleri",
+        "ofis saatleri"
+      ],
+      "responses": [
+        "Şirketimiz hafta içi saat 09:00 ile 18:00 saatleri arasında çalışıyoruz. Hafta sonları ise çalışmıyoruz."
+      ]
+    },
+    {
+      "tag": "çalışan_sayısı",
+      "patterns": [
+        "şirketinizde kaç çalışan var?",
+        "kaç çalışan var",
+        "bera arge'de kaç kişi çalışıyor?",
+        "bera arge'de kaç kişi var?",
+        "bera arge çalışan sayısı",
+        "bera arge çalışan sayısı kaçtır",
+        "bera arge çalışan sayısını söyler misin?",
+        "ekip büyüklüğü",
+        "personel sayısı",
+        "takım üye sayısı",
+        "mühendis sayısı",
+        "çalışan bilgileri",
+        "şirket kadrosu"
+      ],
+      "responses": [
+        "Bera Ar-Ge'de toplamda 13 mühendis çalışmaktadır"
+      ]
+    },
+    {
+      "tag": "ebeko",
+      "patterns": [
+        "ebeko",
+        "Ebeko",
+        "EBEKO",
+        "mobil uygulama",
+        "ebe",
+        "Ebelik",
+        "ebeko uygulaması",
+        "Ebeko uygulaması",
+        "ebeko.app",
+        "Ebeko.app uygulaması",
+        "ebeko uygulaması nedir?",
+        "ebeko uygulaması ne işe yarar?",
+        "Ebeko uygulaması hakkında bilgi verebilir misiniz?",
+        "ebeko uygulaması hakkında bilgi almak istiyorum",
+        "Ebeko uygulaması hakkında bilgi almak istiyorum",
+        "ebeko uygulaması hakkında bilgi verebilir misiniz?",
+        "ebelik klinik otomasyon",
+        "ebelik öğrenci uygulaması",
+        "klinik eğitim yazılımı",
+        "ebelik pratik uygulaması",
+        "sağlık bilgi sistemi",
+        "doğum bilgileri takip",
+        "hamilelik takip sistemi"
+      ],
+      "responses": [
+        "Üniversitelerin Ebelik Bölümü öğrenci ve öğreticilerinin, klinik öğrenim süresince tüm süreçleri yönetmek üzere kullanabilecekleri mobil ve web tabanlı Ebelik Klinik otomasyon Sistemi'dir. İnönü Üniversitesi, Atatürk Üniversitesi ve Eskişehir Osmangazi Üniversitesi'nde uygulamalar mevcuttur."
+      ]
+    },
+    {
+      "tag": "nursecare",
+      "patterns": [
+        "NurseCare",
+        "nursecare",
+        "nurse care",
+        "nurse care",
+        "hemşire",
+        "Hemşire",
+        "hasta bakım",
+        "üniversite",
+        "hemşirelik bölümü",
+        "NurseCare uygulaması nedir?",
+        "NurseCare uygulaması ne işe yarar?",
+        "hemşirelik bölümü öğrencileri",
+        "hemşirelik bölümü öğrencileri ve akademisyenleri",
+        "hemşirelik otomasyon",
+        "klinik öğrenim",
+        "hemşirelik",
+        "NurseCare uygulaması hakkında bilgi verebilir misiniz?",
+        "nursecare uygulaması hakkında bilgi almak istiyorum",
+        "nursecare uygulaması hakkında bilgi almak istiyorum",
+        "Nurse Care uygulaması hakkında bilgi verebilir misiniz?",
+        "hemşire bakım planı",
+        "klinik değerlendirme",
+        "hasta takip sistemi",
+        "hemşirelik eğitimi"
+      ],
+      "responses": [
+        "Nurse Care, Bera ARGE tarafından geliştirilen bir sağlık teknolojisi uygulamasıdır. Hemşirelik bölümü öğrenci ve akademisyenlerin, klinik öğrenim süresini yönetmek üzere mobil ve web tabanlı Hemşirelik Bakım Planı Otomasyon sistemidir."
+      ]
+    },
+    {
+      "tag": "HypMan",
+      "patterns": [
+        "hipertansiyon",
+        "tansiyon",
+        "Tansiyon",
+        "hypman nedir?",
+        "Hypman",
+        "hypman",
+        "hypman uygulaması nedir?",
+        "hypman ne işe yarar?",
+        "hypman uygulaması kim tarafından yapıldı?",
+        "bera arge yazılım hypman uygulaması nedir?",
+        "hipertansiyon düzenleyici uygulama",
+        "Hypman uygulaması hakkında bilgi verebilir misiniz?",
+        "Hypman uygulaması hakkında bilgi almak istiyorum",
+        "hypman uygulaması hakkında bilgi almak istiyorum",
+        "hypman uygulaması hakkında bilgi verebilir misiniz?",
+        "kan basıncı takibi",
+        "tansiyon ölçüm kaydı",
+        "hipertansiyon diyeti",
+        "tansiyon egzersizleri",
+        "ilaç hatırlatıcı",
+        "sağlık takip uygulaması"
+      ],
+      "responses": [
+        "Hipertansiyonlu bireylerin egzsersiz, beslenme, kan basınç ölçümlerinin yapılması ve değerlendirilmesi gibi günlük yaşam rutinlerini kolaylaştıran mobil uygulama."
+      ]
+    },
+    {
+      "tag": "nefroHero_Oyun",
+      "patterns": [
+        "böbrek yetmezliği",
+        "kronik böbrek yetmezliği",
+        "sağlık ve oyun",
+        "NefroHero uygulaması nedir?",
+        "kronik böbrek yetmezliği yaşayan çocuklar için sağlık uygulaması var mı?",
+        "çocuklar için kronik böbrek yetmezliği",
+        "nefrohero",
+        "Nefro Hero",
+        "NefroHero",
+        "Nefrohero",
+        "Nefro Hero uygulaması hakkında bilgi verebilir misiniz?",
+        "NefroHero uygulaması hakkında bilgi almak istiyorum",
+        "nefro hero uygulaması hakkında bilgi almak istiyorum",
+        "nefro hero uygulaması hakkında bilgi verebilir misiniz?",
+        "çocuk sağlık oyunu",
+        "diyaliz eğitimi",
+        "tedavi takip oyunu",
+        "ilaç hatırlatıcı oyun",
+        "kronik hastalık yönetimi",
+        "pediatrik böbrek hastalıkları"
+      ],
+      "responses": [
+        "Kronik Böbrek Yetmezliği yaşayan çocuklarda, günlük yaşamlarını destekleyecek bilgileri oyunlaştırma ile sağlayan bir mobil uygulama oyunudur."
+      ]
+    },
+    {
+      "tag": "mensbin",
+      "patterns": [
+        "adet",
+        "regl",
+        "Regl",
+        "regl dönemi",
+        "regl ağrıları",
+        "sakinleştirici müzik",
+        "mens-bin uygulaması",
+        "mens-bin uygulaması ne işe yarar?",
+        "mens-bin uygulaması nedir?",
+        "Mens-Bin uygulaması nedir?",
+        "mens-bin",
+        "Mens-Bin",
+        "Mens-bin",
+        "mens-bin uygulaması hakkında bilgi verebilir misiniz?",
+        "mens-bin uygulaması hakkında bilgi almak istiyorum",
+        "Mens-Bin uygulaması hakkında bilgi almak istiyorum",
+        "Mens-Bin uygulaması hakkında bilgi verebilir misiniz?",
+        "adet dönemi uygulaması",
+        "dismenore uygulaması",
+        "binaural beats",
+        "adet ağrısı giderici",
+        "kadın sağlığı uygulaması",
+        "adet takip uygulaması"
+      ],
+      "responses": [
+        "Bu uygulamanın amacı, binaural vuruş seslerini kullanarak adet döneminde uyku kalitesini arttırmak ve dismenoreyi azaltmaktır."
+      ]
+    },
+    {
+      "tag": "mtso",
+      "patterns": [
+        "mersin ticaret sanayi odası",
+        "Mersin Ticaret Sanayi Odası",
+        "mtso",
+        "MTSO",
+        "mtso tv",
+        "MTSO TV",
+        "mtso güncel haberler",
+        "mtso online işlemler",
+        "mtso etkinlikler",
+        "mtso bilgi havuzu",
+        "mtso ne işe yarıyor?",
+        "mtso uygulamasının amacı nedir?",
+        "mtso uygulaması nedir?",
+        "MTSO uygulaması nedir?",
+        "mersin ticaret ve sanayi odası uygulaması nedir?",
+        "Mersin Ticaret ve Sanayi Odası uygulaması nedir?",
+        "mtso uygulaması hakkında bilgi verebilir misiniz?",
+        "mtso uygulaması hakkında bilgi almak istiyorum",
+        "MTSO uygulaması hakkında bilgi almak istiyorum",
+        "ticaret odası uygulaması",
+        "sanayi odası mobil",
+        "meslek odası uygulaması",
+        "iş dünyası uygulaması"
+      ],
+      "responses": [
+        "Mersin Ticaret ve Sanayi Odası (MTSO) resmi mobil uygulaması, üyelerimize ve kullanıcılarımıza geniş bir hizmet yelpazesi sunarak ticaret ve sanayi ile ilgili bilgilere hızlı erişim sağlar."
+      ]
+    },
+    {
+      "tag": "kütüphane rezervasyon uygulaması nedir?",
+      "patterns": [
+        "kütüphane",
+        "Kütüphane rezervasyon uygulaması",
+        "Kütüphane",
+        "kütüphane rezervasyon uygulaması",
+        "kütüphane rezervasyon uygulaması nedir?",
+        "kütüphane rezervasyon uygulaması hakkında bilgi verebilir misiniz?",
+        "kütüphende rezervasyon uygulaması hakkında bilgi almak istiyorum",
+        "Kütüphanede rezervasyon uygulaması hakkında bilgi almak istiyorum",
+        "kütüphane randevu sistemi",
+        "kütüphane rezervasyonu",
+        "kütüphane otomasyonu",
+        "kitap rezervasyonu",
+        "çalışma salonu rezervasyonu",
+        "üniversite kütüphane uygulaması"
+      ],
+      "responses": [
+        "Kütüphanelere rezervasyonlu gidebilmek için Kütüphane Rezervasyon uygulamamızı kullanabilirsiniz."
+      ]
+    },
+    {
+      "tag": "desab",
+      "patterns": [
+        "desab",
+        "DESAB",
+        "Desab uygulaması",
+        "desab uygulaması",
+        "DESAB UYGULAMASI",
+        "desab uygulaması nedir?",
+        "desab uygulaması",
+        "desab uygulaması ne işe yarar?",
+        "desab uygulaması hakkında bilgi verebilir misiniz?",
+        "desab uygulaması hakkında bilgi almak istiyorum",
+        "DESAB uygulaması hakkında bilgi almak istiyorum",
+        "sigara bırakma uygulaması",
+        "emziren anneler için uygulama",
+        "anne sağlığı uygulaması",
+        "bebek sağlığı uygulaması",
+        "sigarasız yaşam",
+        "nikotin bağımlılığı",
+        "sağlıklı yaşam uygulaması"
+      ],
+      "responses": [
+        "Desab uygulaması, sigara içen emziren annelere destek veren ve onlara sigarasız bir yaşam tarzını benimsemelerine yardımcı olan bir mobil uygulamadır."
+      ]
+    },
+    {
+      "tag": "pressı",
+      "patterns": [
+        "sağlık bölümü öğrencileri için uygulama",
+        "cerrahi alan enfeksiyon, preoperatif dönem, sorular, quiz",
+        "preSSI uygulaması nedir?",
+        "pressı",
+        "pressı uygulaması",
+        "preSSI uygulaması ne işe yarar?",
+        "PreSSI uygulaması hakkında bilgi verebilir misiniz?",
+        "pressı uygulaması hakkında bilgi almak istiyorum",
+        "cerrahi enfeksiyon uygulaması",
+        "tıp öğrencisi uygulaması",
+        "cerrahi bilgi testi",
+        "sağlık eğitim uygulaması",
+        "ameliyathane uygulaması",
+        "cerrahi süreçler uygulaması"
+      ],
+      "responses": [
+        "preSSI uygulaması, kullanıcının Cerrahi Alan Enfeksiyonları ve Genel Bilgiler, Preoperatif Dönem, İntraoperatif Dönem, Postoperatif Dönem hakkında bilgi ve sorulardan oluşan bir teste katıldığı mobil uygulamadır. Uygulama kullanım verilerini de görebilirsiniz."
+      ]
+    },
+    {
+      "tag": "şoför_iste",
+      "patterns": [
+        "Şoföriste uygulaması",
+        "şoföriste uygulaması",
+        "şoför iste uygulaması",
+        "şoföriste uygulaması ne işe yarar?",
+        "şoför kiralama",
+        "ulaşım",
+        "şoföriste uygulaması nedir?",
+        "Şoföriste uygulaması hakkında bilgi verebilir misiniz?",
+        "Şoföriste uygulaması hakkında bilgi almak istiyorum",
+        "kişisel şoför uygulaması",
+        "özel şoför kiralama",
+        "araç kullanmadan ulaşım",
+        "şehir içi şoför hizmeti"
+      ],
+      "responses": [
+        "Şoföriste uygulaması, kullanıcıların istedikleri zaman ve yerde bir şoför kiralamalarına olanak tanıyan bir mobil uygulamadır. Şoför talep etme uygulamasıyla anında bir şoför talep etmenin yanı sıra, isterseniz başka bir gün ve saat için de rezervasyon yapabilirsiniz."
+      ]
+    },
+    {
+      "tag": "ademop",
+      "patterns": [
+        "ADEMOP uygulaması",
+        "ademop uygulaması",
+        "Ademop Uygulaması",
+        "ADEMOP APP",
+        "ademop app",
+        "ADEMOP nedir?",
+        "ademop ne işe yarar?",
+        "Ademop Projesi",
+        "ademop proje",
+        "ADEMOP akademik destek",
+        "ADEMOP ruh sağlığı",
+        "ademop psikolojik destek",
+        "ADEMOP etkinlikleri",
+        "ademop eğitimleri",
+        "ADEMOP film gösterimi",
+        "ademop gülme yogası",
+        "ADEMOP stres eğitimi",
+        "ademop sanat terapisi",
+        "ADEMOP nasıl kullanılır?",
+        "ademop hakkında bilgi",
+        "ADEMOP kimler için?",
+        "ademop destek programı",
+        "ADEMOP uygulama detayları",
+        "ademop mobil uygulama",
+        "ADEMOP indir",
+        "ademop download",
+        "ADEMOP kayıp/yas eğitimi",
+        "ademop sağlıklı yaşam",
+        "ADEMOP gevşeme egzersizi",
+        "ademop uzman desteği"
+      ],
+      "responses": [
+        "Ademop projesi, alanında uzman akademisyenler \"Film gösterimi, gülme yogası, stres başa çıkma teknikleri eğitimi, progresif gevşeme egzersizi, kayıp/yas süreci eğitimi, ifadesel sanat terapisi uygulaması, sağlıklı yaşam davranışı eğitimi\" adı verilen bir programda sunmuşlardır. Farklı uygulamalar sunulacaktır."
+      ]
+    },
+    {
+      "tag": "gebelikte_kilo_yönetimi",
+      "patterns": [
+        "gebelikte kilo yönetimi",
+        "Gebelikte Kilo Yönetimi",
+        "GEBELİKTE KİLO YÖNETİMİ",
+        "hamilelikte kilo takibi",
+        "Hamilelikte Kilo Kontrolü",
+        "gebelikte kilo ayarlama",
+        "gebelikte egzersiz programı",
+        "Gebelikte Egzersiz Nasıl Yapılır?",
+        "hamilelikte diyet",
+        "gebelikte kilo uygulaması",
+        "GEBELİK KİLO APP",
+        "gebelikte kilo takip uygulaması",
+        "gebelikte sağlıklı kilo alımı",
+        "hamilelikte ideal kilo",
+        "gebelikte fazla kilo riski",
+        "gebelikte kilo yönetimi nasıl olmalı?",
+        "gebelikte kilo hesaplama",
+        "hamilelikte kilo yönetimi app",
+        "gebelikte kilo uygulaması indir",
+        "hamilelikte beslenme ve kilo",
+        "gebelikte obezite yönetimi"
+      ],
+      "responses": [
+        "Gebelikte kilo yönetimi uygulaması, hamilelik döneminiz boyunca ağırlık yönetiminizi ve takiplerinizi yapabileceğiniz bir uygulamadır."
+      ]
+    },
+    {
+      "tag": "ebe_care",
+      "patterns": [
+        "ebe care uygulaması",
+        "EBE CARE APP",
+        "EbeCare mobil",
+        "ebecare hamilelik takip",
+        "ebe care ne işe yarar?",
+        "EBE CARE ile hamilelik",
+        "ebecare indir",
+        "EbeCare download",
+        "ebe care bebek gelişimi",
+        "EBECARE gebelik rehberi",
+        "ebe care anne sağlığı",
+        "hamilelik takip uygulaması",
+        "GEBELİK TAKİP APP",
+        "ebe care kullanımı",
+        "EBE CARE özellikleri",
+        "ebe care ücretsiz mi?",
+        "ebecare doktor bağlantısı",
+        "EbeCare ile sağlıklı hamilelik",
+        "ebe care hafta hafta gebelik",
+        "EBECARE bebek hareketleri",
+        "ebe care beslenme önerileri"
+      ],
+      "responses": [
+        "EBECARE uygulaması ile hamileliğinizi adım adım takip edebileceğiniz, bebeğinizin gelişimi hakkında bilgi edinip ve sürecinizi daha sağlıklı ve bilinçli yönetebilmenizi sağlayan bir uygulamadır."
+      ]
+    },
+    {
+      "tag": "özçimo",
+      "patterns": [
+        "özçimo uygulaması",
+        "ÖZÇİMO APP",
+        "özçimo indir",
+        "Özçimo Download",
+        "özçimo eğitim oyunları",
+        "özçimo matematik becerileri",
+        "ÖZÇİMO zihinsel engelli çocuklar",
+        "özçimo okul öncesi",
+        "özçimo öğretmen girişi",
+        "ÖZÇİMO ebeveyn paneli",
+        "özçimo mobil eğitim",
+        "özçimo nasıl kullanılır?",
+        "ÖZÇİMO hafif engelli destek",
+        "özçimo çocuk gelişimi",
+        "özçimo ücretsiz mi?",
+        "ÖZÇİMO özel eğitim",
+        "özçimo oyun listesi"
+      ],
+      "responses": [
+        "Özçimo uygulaması, hafif zihinsel engelli okul öncesi çocuklar için geliştirilen bu mobil uygulama, öğretmen, öğrenci ve ebeveyn giriş seçenekleriyle matematik becerilerini eğlenceli 20 farklı oyunla geliştirmeyi ve takip etmeyi sağlar."
+      ]
+    },
+    {
+      "tag": "memosta",
+      "patterns": [
+        "memosta uygulaması",
+        "MEMOSTA APP",
+        "memosta indir",
+        "Memosta Download",
+        "memosta girişimciler",
+        "MEMOSTA indirimler",
+        "memosta avantajlar",
+        "memosta şehir bazlı",
+        "Memosta tüketici buluşması",
+        "memosta pazarlama",
+        "MEMOSTA rekabet",
+        "memosta nasıl kullanılır?",
+        "Memosta işletme anlaşmaları",
+        "memosta ücretsiz mi?",
+        "MEMOSTA mobil"
+      ],
+      "responses": [
+        "Memosta uygulaması, girişimciler ve tüketicileri şehir bazlı özel anlaşmalarla buluşturur, indirim ve avantajlar sunarak pazarda rekabeti artırır."
+      ]
+    },
+    {
+      "tag": "mimsan_ik",
+      "patterns": [
+        "mimsan ik nedir?",
+        "MİMSAN İK NEDİR?",
+        "Mimsan İK uygulaması",
+        "mimsan ik uygulaması ne işe yarar?",
+        "MİMSAN İK HAKKINDA",
+        "mimsan ik hakkında bilgi",
+        "Mimsan İK nasıl kullanılır?",
+        "mimsan ik indir",
+        "mimsan ik çalışan uygulaması",
+        "MİMSAN İK BORDRO",
+        "mimsan ik yemek listesi",
+        "Mimsan İK izin takip",
+        "mimsan ik şirket uygulaması",
+        "MİMSAN İK MOBİL",
+        "mimsan ik giriş",
+        "Mimsan İK hesap bordrosu",
+        "mimsan ik personel uygulaması",
+        "MİMSAN İK AVANTAJLARI",
+        "mimsan ik kullanım kılavuzu",
+        "mimsan ik hakkında bilgi almak istiyorum",
+        "MİMSAN İK UYGULAMASI YORUMLARI"
+      ],
+      "responses": [
+        "Mimsan İK, şirket çalışanlarının izinli gün sayılarını görebildikleri, hesap bordrolarını ve şirketin yemek listesini görebilecekleri bir uygulamadır."
+      ]
+    },
+    {
+      "tag": "yenidoğan_dijital_kimlik",
+      "patterns": [
+        "yenidoğan dijital kimlik",
+        "YENİDOĞAN DİJİTAL KİMLİK",
+        "yeni doğan dijital kimlik uygulaması",
+        "bebek dijital kimlik",
+        "YENİDOĞAN KİMLİK UYGULAMASI",
+        "yenidoğan parmak izi taraması",
+        "yeni doğan topuk taraması",
+        "YENİDOĞAN DİJİTAL KAYIT",
+        "bebek kimlik uygulaması nedir?",
+        "yenidoğan dijital kayıt nasıl yapılır?",
+        "YENİDOĞAN KİMLİK SİSTEMİ",
+        "dijital bebek kimliği",
+        "yenidoğan güvenlik uygulaması",
+        "YENİDOĞAN TARAMA APP",
+        "bebek kimlik takip sistemi",
+        "yenidoğan dijital kimlik hakkında bilgi",
+        "YENİDOĞAN KİMLİK UYGULAMASI İNDİR",
+        "yenidoğan dijital kimlik nasıl çalışır?",
+        "bebek için dijital kimlik uygulaması"
+      ],
+      "responses": [
+        "Yeni doğan dijital kimlik uygulaması, bebeğinize parmak ve topuk taraması yaparak dijital bir kimlik kazandırabilirsiniz."
+      ]
+    },
+    {
+      "tag": "diyabet_adalarına_yolculuk",
+      "patterns": [
+        "diyabet adalarına yolculuk",
+        "DİYABET ADALARINA YOLCULUK",
+        "çocuk diyabet uygulaması",
+        "diyabet oyunu",
+        "DİYABET EĞİTİM OYUNU",
+        "çocuklar için diyabet uygulaması",
+        "diyabet adaları uygulaması nedir?",
+        "DİYABET ADALARI APP",
+        "tip 1 diyabet uygulaması",
+        "çocuklarda diyabet yönetimi",
+        "DİYABET OYUNU İNDİR",
+        "diyabet eğitici oyun",
+        "diyabet adalarına yolculuk nasıl oynanır?",
+        "DİYABET MOBİL OYUN",
+        "çocuk diyabet oyunu",
+        "diyabet adaları hakkında bilgi",
+        "DİYABET ADALARI UYGULAMASI YORUMLARI",
+        "diyabet adalarına yolculuk uygulaması indir",
+        "çocuklar için diyabet eğitimi uygulaması"
+      ],
+      "responses": [
+        "Diyabet adalarına yolculuk, diyabeti olan çocukların hastalıklarını daha iyi tanımalarına yardımcı olmak için kullanılan bir mobil oyundur."
+      ]
+    },
+    {
+      "tag": "astım_maceram",
+      "patterns": [
+        "astım maceram",
+        "ASTIM MACERAM",
+        "astım uygulaması",
+        "çocuk astım uygulaması",
+        "astım yönetim uygulaması",
+        "ASTIM YÖNETİMİ APP",
+        "astım macerası uygulaması nedir?",
+        "çocuklar için astım uygulaması",
+        "ASTIM MACERAM NASIL KULLANILIR?",
+        "astım oyunu",
+        "astım eğitim uygulaması",
+        "ASTIM MACERAM İNDİR",
+        "8-12 yaş astım uygulaması",
+        "astım maceram hakkında bilgi",
+        "ASTIM UYGULAMASI YORUMLARI",
+        "astım macerası oyunu",
+        "astım hastalığı uygulaması",
+        "ASTIM MACERAM DOKTOR UYGULAMASI",
+        "astım maceram kullanımı",
+        "çocuklarda astım yönetimi uygulaması",
+        "astım maceram uygulaması hakkında bilgi almak istiyorum"
+      ],
+      "responses": [
+        "Astım macerası astım uygulaması, bir çocuk doktoru, çocuk alerji uzmanı, çocuk hemşiresi, acil uzmanı, çocuk psikiyatrı, psikolog ve bilgisayar yazılım geliştiricisi tarafından geliştirilmiştir. Bu uygulama ile 8-12 yaş arasındaki çocuklar astımlarını kolayca yönetebilecektir."
+      ]
+    },
+    {
+      "tag": "kayısı_haber",
+      "patterns": [
+        "haber",
+        "kayısı haber",
+        "KAYISI HABER",
+        "kayısı haber uygulaması",
+        "kayısı haber app",
+        "kayısı haber nedir?",
+        "KAYISI HABER UYGULAMASI",
+        "Malatya haberleri",
+        "malatya güncel haberler",
+        "MALATYA SON DAKİKA",
+        "kayısı haber indir",
+        "KAYISI HABER İNDİR",
+        "kayısı haber mobil",
+        "kayısı haber hakkında",
+        "KAYISI HABER HAKKINDA",
+        "malatya haber uygulaması",
+        "MALATYA HABER APP",
+        "kayısı haber nasıl kullanılır?",
+        "KAYISI HABER KULLANIMI",
+        "kayısı haber yorumları",
+        "malatya gündemi",
+        "MALATYA GÜNCEL",
+        "kayısı haber giriş",
+        "kayısı haber abonelik",
+        "KAYISI HABER ÜCRETLİ Mİ?",
+        "malatya olayları",
+        "kayısı gazetesi",
+        "MALATYA HABER KAYNAĞI",
+        "kayısı haber güvenilir mi?",
+        "kayısı haber desteği"
+      ],
+      "responses": [
+        "Malatya hakkında en güncel haberler için, Kayısı haberi takip edin."
+      ]
+    },
+    {
+  "tag": "şirket_mobil_uygulamaları",
+  "patterns": [
+    "mobil uygulama",
+    "MOBİL APP",
+    "şirket uygulamaları",
+    "bera arge uygulamaları",
+    "BERA ARGE MOBİL",
+    "bera arge'nin uygulamaları",
+    "kaç uygulama var?",
+    "ŞİRKETİN UYGULAMALARI",
+    "firma uygulamaları neler?",
+    "bera arge yazılımları",
+    "BERA ARGE PROJELERİ",
+    "şirketin geliştirdiği uygulamalar",
+    "mobil yazılımlar",
+    "MOBİL PROJELER",
+    "bera arge ürünleri",
+    "kaç tane uygulama var?",
+    "ŞİRKET UYGULAMA LİSTESİ",
+    "bera arge portfolio",
+    "yapılan uygulamalar",
+    "GELİŞTİRİLEN UYGULAMALAR",
+    "bera arge çalışmaları",
+    "mobil uygulama listesi",
+    "ŞİRKETİN YAZILIMLARI",
+    "bera arge'nin yaptığı uygulamalar",
+    "uygulama envanteri",
+    "mobil ürünler",
+    "TEKNOLOJİ ÜRÜNLERİ",
+    "yazılım geliştirme projeleri",
+    "bera arge uygulama sayısı",
+    "şirket ürün portföyü"
+  ],
+  "responses": [
+        {
+          "text": "Bera Ar-Ge tarafından Google Play Store'da yayınlanan toplam 20 tane uygulama vardır. Uygulamalarımız:",
+          "apps": [
+            {"name": "Şoföriste", "url": "https://play.google.com/store/apps/details?id=com.soforisteyeni_android"},
+            {"name": "Hypman", "url": "https://play.google.com/store/apps/details?id=com.hyp_man"},
+            {"name": "Ebeko.App", "url": "https://play.google.com/store/apps/details?id=com.ebeko.app"},
+            {"name": "Mens-Bin", "url": "https://play.google.com/store/apps/details?id=com.mensBin"},
+            {"name": "ADEMOP", "url": "https://play.google.com/store/apps/details?id=com.binbircabamobile"},
+            {"name": "Mersin TSO", "url": "https://play.google.com/store/apps/details?id=com.mersintsomobil"},
+            {"name": "Gebelikte Kilo Yönetimi", "url": "https://play.google.com/store/apps/details?id=com.gebeliktekiloizlemimobil"},
+            {"name": "Ebecare", "url": "https://play.google.com/store/apps/details?id=com.ebecaremobil"},
+            {"name": "Nurse Care", "url": "https://play.google.com/store/apps/details?id=com.nursecare"},
+            {"name": "PreSSI", "url": "https://play.google.com/store/apps/details?id=com.antepprojemobil"},
+            {"name": "Özçimo", "url": "https://play.google.com/store/apps/details?id=com.DefaultCompany.ozcimo"},
+            {"name": "Memosta", "url": "https://play.google.com/store/apps/details?id=com.memosta"},
+            {"name": "Mimsan İK", "url": "https://play.google.com/store/apps/details?id=com.mimsanmobil"},
+            {"name": "Yenidoğan Dijital Kimlik", "url": "https://play.google.com/store/apps/details?id=com.ai1001"},
+            {"name": "Diyabet Adalarına Yolculuk", "url": "https://play.google.com/store/apps/details?id=com.Diyabet.DiyabetKoyu"},
+            {"name": "Astım Maceram", "url": "https://play.google.com/store/apps/details?id=com.BeraArGeYazilim.AstimMaceram"},
+            {"name": "Kayısı Haber", "url": "https://play.google.com/store/apps/details?id=com.kayisihaber"},
+            {"name": "DESAB", "url": "https://play.google.com/store/apps/details?id=com.desabapp"},
+            {"name": "Kütüphane Rezervasyon", "url": "https://play.google.com/store/apps/details?id=com.kutuphanerezervasyon"},
+            {"name": "NefroHero Oyunu", "url": "https://play.google.com/store/apps/details?id=com.Nefro.NefroHero"}
+          ],
+          "footer": "Hangi uygulama hakkında bilgi almak istersiniz?"
+    }
+  ]
+},
+    {
+      "tag": "sağlık_mobil_uygulamaları",
+      "patterns": [
+        "sağlık alanına özel uygulamalar",
+        "sağlık için mobil uygulamalar",
+        "sağlık uygulamaları",
+        "şirketinizin sağlık için uygulamaları",
+        "bera arge sağlık mobil uygulamaları",
+        "firmanızın sağlık uygulamaları nelerdir?"
+      ],
+      "responses": ["Bera Ar-Ge yazılım olarak geliştirdiğimiz sağlık mobil uygulamalarımız şunlardır: Hypman, Ebeko.app, Ebecare, Gebelikte Kilo Yönetimi, Nurse Care, PreSSI, Yenidoğan Dijital Kimlik, Diyabet Adalarına Yolculuk, Astım Maceram, DESAB, NefroHero Oyunu mevcuttur. Bunlardan hangisi hakkında bilgi almak istersiniz?"]
+    },
+    {
+      "tag": "proje_isteği",
+      "patterns": [
+        "bunun gibi proje istiyorum",
+        "hakkında proje istiyorum",
+        "proje yapmak istiyorum",
+        "ile proje yapmak istiyorum",
+        "proje yapmanızı istiyorum",
+        "böyle birşey istiyorum",
+        "bunun gibi proje yapmak istiyorum",
+        "uygulama yapmak istiyorum",
+        "uygulama geliştirmenizi istiyorum",
+        "web site geliştirmenizi istiyorum",
+        "web site istiyorum",
+        "hakkında bir proje",
+        "hakkında bir ürün geliştirmek istiyorum",
+        "hakkında bir ürün almak istiyorum",
+        "PROJE TALEBİ",
+        "yazılım geliştirme istiyorum",
+        "ÖZEL PROJE",
+        "benzer uygulama yaptırmak",
+        "YAZILIM HİZMETİ",
+        "mobil app yaptırmak",
+        "web tasarım hizmeti",
+        "DİJİTAL ÜRÜN GELİŞTİRME",
+        "özel yazılım çözümü",
+        "TEKNOLOJİ PROJESİ",
+        "yazılım siparişi",
+        "app yapım talebi",
+        "yazılım danışmanlığı",
+        "PROJE BAŞLATMAK",
+        "yazılım geliştirme teklifi",
+        "dijital çözüm ortağı",
+        "teknoloji işbirliği",
+        "YAZILIM DESTEĞİ",
+        "özel uygulama geliştirme"
+      ],
+      "responses": [
+        {
+            "text": "Şirketimize olan ilginiz için teşekkür ederiz. Lütfen proje detaylarınızı buradan gönderin:",
+            "links": [
+                {
+                    "url": "https://form.jotform.com/250513017350039",
+                    "text": "Proje Talep Formu"
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "tag": "şirket_web_sitesi",
+      "patterns": [
+        "web sitesi yapmak istiyorum",
+        "WEB SİTESİ TALEBİ",
+        "bu projeyi yapmak istiyorum",
+        "proje yapmak istiyorum",
+        "İŞLETME İÇİN WEB SİTE",
+        "işletme için web tasarımı",
+        "iş yerim için web sitesi tasarlamak istiyorum",
+        "WEB SİTE TASARIMI",
+        "kurumsal web sitesi yaptırmak",
+        "KURUMSAL TASARIM HİZMETİ",
+        "e-ticaret sitesi yapımı",
+        "E-TİCARET ÇÖZÜMLERİ",
+        "profesyonel web tasarım",
+        "ÖZEL WEB PROJESİ",
+        "web geliştirme hizmeti",
+        "WEB PROGRAMLAMA",
+        "şirket sitesi yaptırmak",
+        "KURUMSAL KİMLİK TASARIMI",
+        "responsive web tasarım",
+        "MOBİL UYUMLU WEB SİTE",
+        "wordpress web sitesi",
+        "ÖZEL CMS ÇÖZÜMLERİ",
+        "web sitesi yenileme",
+        "WEB SİTE GÜNCELLEME",
+        "seo uyumlu web sitesi",
+        "DİJİTAL PAZARLAMA ÇÖZÜMLERİ",
+        "web tasarım fiyatları",
+        "WEB PROJE TEKLİFİ"
+      ],
+      "responses": [
+        {
+            "text": "Şirketimize olan ilginiz için teşekkür ederiz. Lütfen proje detaylarınızı buradan gönderin:",
+            "links": [
+                {
+                    "url": "https://form.jotform.com/250513017350039",
+                    "text": "Proje Talep Formu"
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "tag": "web_sitesi_örnekleri",
+      "patterns": [
+        "yapmış olduğunuz web siteler",
+        "sizin yapmış olduğunuz web siteler",
+        "BERA ARGE WEB PORTFÖYÜ",
+        "bera arge'nin tasarladığı web siteler",
+        "BERA WEB SİTELERİ",
+        "bera arge'nin web siteleri",
+        "REFERANS WEB PROJELERİ",
+        "örnek web siteler",
+        "WEB SİTE ÖRNEKLERİ",
+        "örnek web siteleri paylaşır mısın?",
+        "REFERANS GÖSTERİR MİSİNİZ?",
+        "web site hakkında fikir sahibi olmak için örnek web siteleri",
+        "TASARIM STİLİNİZİ GÖRMEK İSTİYORUM",
+        "daha önce yaptığınız web projeleri",
+        "PORTFOLYO GÖSTERİR MİSİNİZ?",
+        "referans web tasarımlarınız",
+        "KURUMSAL WEB REFERANSLARI",
+        "e-ticaret site örnekleriniz",
+        "E-TİCARET PROJELERİNİZ",
+        "responsive web tasarım örnekleri",
+        "MOBİL UYUMLU SİTE ÖRNEKLERİ",
+        "wordpress projeleriniz",
+        "CMS TABANLI WEB ÖRNEKLERİ",
+        "kurumsal kimlik çalışmalarınız",
+        "KURUMSAL TASARIM ÖRNEKLERİ"
+      ],
+       "responses": ["Merhaba, yapmış olduğumuz web sitelerinden birkaç tane örnek verecek olursam: (https://www.otimed.com/), (https://www.mtso.org.tr/), (https://ceylingul.com/)"]
+     }
+  ]
+}
