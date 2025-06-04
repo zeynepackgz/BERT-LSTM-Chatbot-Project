@@ -1,5 +1,5 @@
 
-# 🤖 Türkçe Niyet Sınıflandırmaya Dayalı Bir Chatbot Uygulaması
+# 🤖 BERT & LSTM Chatbot Projesi 
 
 Bu proje, müşteri hizmetleri süreçlerini dijitalleştirmek amacıyla geliştirilmiş, Türkçe dilini anlayabilen bir sohbet robotudur (chatbot). Derin öğrenme temelli BERT ve LSTM modelleri kullanılarak oluşturulan hibrit mimari sayesinde kullanıcı girdilerini yüksek doğrulukla sınıflandırır ve uygun yanıtlar üretir.
 
