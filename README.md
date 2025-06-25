@@ -4,8 +4,7 @@
 Bu proje, müşteri hizmetleri süreçlerini dijitalleştirmek amacıyla geliştirilmiş, Türkçe dilini anlayabilen bir sohbet robotudur (chatbot). Derin öğrenme temelli BERT ve LSTM modelleri kullanılarak oluşturulan hibrit mimari sayesinde kullanıcı girdilerini yüksek doğrulukla sınıflandırır ve uygun yanıtlar üretir.
 
 ---
-
-<img src="chatbot.png" alt="chatbot" style="width:30%;"/>   <img src="chatbot2.png" alt="chatbot" style="width:30%;"/>
+<img src="project-gif.gif" width="600" height="400"/>
 
 
 ---
@@ -95,6 +94,8 @@ python app.py
 ## 💬 Chatbot Arayüzü
 
 Flask tabanlı web arayüzü sayesinde kullanıcılar Türkçe metin girişi yapabilir. Sistem, girdinin ait olduğu intent’i tahmin eder ve uygun yanıtı döner.
+
+<img src="chatbot.png" alt="chatbot" style="width:30%;"/>   <img src="chatbot2.png" alt="chatbot" style="width:30%;"/>
 
 ---
 
